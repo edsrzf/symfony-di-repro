@@ -1,0 +1,14 @@
+services:
+    _defaults: { autoconfigure: true, autowire: true }
+
+    App\PublicService:
+        public: true
+
+    App\Service1: ~
+
+    App\Service2: ~
+
+    App\NonsharedService:
+        shared: false
+
+    App\Command: ~
