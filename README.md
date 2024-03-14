@@ -1,4 +1,4 @@
-This is a reproduction case for an issue in the Symfony service container.
+This is a reproduction case for an issue in the Symfony service container: https://github.com/symfony/symfony/issues/54294
 
 Steps to reproduce:
 
